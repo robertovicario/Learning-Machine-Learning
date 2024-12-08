@@ -2,9 +2,9 @@
 
 ## Overview
 
-Distance classification is a method used to group or categorize data points based on how far they are from one another in a defined space. The idea is that similar data points are closer together, and different ones are farther apart. 
+_Distance Classification_ is a method used to group or categorize data points based on how far they are from one another in a defined space.
 
-The core idea of distance-based classification is to compare the distance of a given data point (input) to predefined reference points. Based on these distances, we assign the point to a specific group.
+The _Core Idea_ is to compare the distance of a given data point (input) to predefined reference points. Based on these distances, we assign the point to a specific group.
 
 ## General Formula
 
@@ -14,11 +14,9 @@ $$
 D(P, Q) = \left( \sum_{i=1}^n |x_i - y_i|^p \right)^{1/p}
 $$
 
-where:
+where $p$ determines the type of distance.
 
-- $p$ determines the type of distance.
-
-## Types of Distances
+## Distance Metrics
 
 ### Euclidean Distance
 
@@ -71,7 +69,6 @@ Useful in games like chess, where only the farthest movement matters.
     where $n_i$ is the number of points in class $i$, and $P_j$ are the points.
 
 2. For a given input point $P$, calculate the distance to each centroid $C_i$ (e.g., using Euclidean distance).
-
 3. Assign $P$ to the class with the smallest distance.
 
 ### Box Classifier
@@ -91,8 +88,8 @@ Useful in games like chess, where only the farthest movement matters.
 
 ### Summary
 
-| Classifier | Method | Pros | Cons | Use-Case |
-| ---------- | ----- | ---- | ---- | -------- |
-| Minimum Distance | Closest centroid | Simple and fast | Struggles with overlapping data | Customer segmentation |
-| Box Classifier | Box-based boundaries | Quick for fixed regions | Rigid, doesn't handle overlap well | Age/income groupings |
-| KNN | Based on nearest neighbors | Flexible, handles complex data | Slow for large datasets | Image or voice classification |
+| Classifier | Pros | Cons | Use-Case |
+| ---------- | ---- | ---- | -------- |
+| Minimum Distance | Simple and fast | Struggles with overlapping data | Customer segmentation,  Document Classification, Face Recognition |
+| Box Classifier | Quick for fixed regions | Rigid, doesn't handle overlap well | Age/Income Groupings, Traffic Sign Detection, Object Detection |
+| KNN | Flexible, handles complex data | Slow for large datasets | Image or Voice Classification, Recommendation Systems, Medical Diagnosis |
