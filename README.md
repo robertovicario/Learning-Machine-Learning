@@ -26,3 +26,7 @@ Below, you'll find a conceptual map I've created to highlight the key concepts y
         <td align="center">Machine Learning Mindmap</td>
     </tr>
 </table>
+
+## License
+
+This project is distributed under [Apache License, Version 2.0](https://opensource.org/license/apache-2-0). You can find the complete text of the license in the project repository.
