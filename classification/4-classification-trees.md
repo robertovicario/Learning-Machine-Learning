@@ -26,8 +26,8 @@ The _Core Idea_ of a classification tree is to divide the dataset into groups th
    - The number of samples in a node falls below a threshold.
 5. **Pruning (optional):** Reduce the size of the tree to prevent overfitting by removing nodes that provide little predictive power.
 
-### Summary
+### Pros & Cons
 
-| **Classifier** | **Pros** | **Cons** | **Use-Case** |
-| - | - | - | - |
-| Decision Tree | Easy to understand and interpret. Handles both numerical and categorical data. | May not generalize well to unseen data. Sensitive to small data changes. | Fraud Detection, Medical Diagnosis, Customer Segmentation |
+| **Classifier** | **Pros** | **Cons** |
+| - | - | - |
+| Decision Tree | Handles both numerical and categorical data. | May not generalize well to unseen data |

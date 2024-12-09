@@ -44,8 +44,8 @@ Where:
 
 3. Compares this probability to a threshold (e.g., 0.5) to decide the class.
 
-### Summary
+### Pros & Cons
 
-| **Classifier** | **Pros** | **Cons** | **Use-Case** |
-| - | - | - | - |
-| Logistic Regression | Computationally efficient for small to medium-sized datasets. | Sensitive to outliers, requires careful feature scaling for optimal performance. | Spam Detection, Credit Scoring, Medical Diagnosis |
+| **Classifier** | **Pros** | **Cons** |
+| - | - | - |
+| Logistic Regression | Computationally efficient for small to medium-sized datasets | Requires feature scaling because is sensitive to outliers |

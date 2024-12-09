@@ -44,9 +44,9 @@ Where:
 2. Specify conditional probabilities for each node given its parents.
 3. Use the network to calculate posterior probabilities using _Bayes' Theorem_.
 
-### Summary
+### Pros & Cons
 
-| **Classifier** | **Pros** | **Cons** | **Use-Case** |
-| - | - | - | - |
-| Naïve Bayes | Simple, fast, works well with large datasets, easy to implement | Assumes features are independent (may not be true), struggles with correlated features | Text Classification, Spam Filtering, Sentiment Analysis |
-| Bayesian Networks | Can handle complex dependencies, more accurate for complex problems | Requires more data and domain knowledge, computationally intensive | Risk Assessment, Gene Expression Analysis, Decision Support Systems |
+| **Classifier** | **Pros** | **Cons** |
+| - | - | - |
+| Naïve Bayes | Works well with large datasets | Assumes features are independent and struggles with correlated features |
+| Bayesian Networks | Can handle complex dependencies | Requires more data and domain knowledge |
