@@ -50,8 +50,8 @@ Useful in games like chess, where only the farthest movement matters.
 
 ### Summary
 
-| Distance | Path Type | Use-Case |
-| -------- | --------- | -------- |
+| **Distance** | **Path Type** | **Use-Case** |
+| - | - | - |
 | Euclidean | Straight-line path | Clustering or real-world coordinates |
 | Manhattan | Grid or stepwise path | City navigation, high-dimensional data|
 | Chebyshev | Longest single move | Chess moves, warehouse logistics |
@@ -88,8 +88,8 @@ Useful in games like chess, where only the farthest movement matters.
 
 ### Summary
 
-| Classifier | Pros | Cons | Use-Case |
-| ---------- | ---- | ---- | -------- |
+| **Classifier** | **Pros** | **Cons** | **Use-Case** |
+| - | - | - | - |
 | Minimum Distance | Simple and fast | Struggles with overlapping data | Customer segmentation,  Document Classification, Face Recognition |
 | Box Classifier | Quick for fixed regions | Rigid, doesn't handle overlap well | Age/Income Groupings, Traffic Sign Detection, Object Detection |
 | KNN | Flexible, handles complex data | Slow for large datasets | Image or Voice Classification, Recommendation Systems, Medical Diagnosis |

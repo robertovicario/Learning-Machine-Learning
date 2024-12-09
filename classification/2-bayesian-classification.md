@@ -46,7 +46,7 @@ Where:
 
 ### Summary
 
-| Classifier | Pros | Cons | Use-Case |
-| ---------- | ---- | ---- | -------- |
+| **Classifier** | **Pros** | **Cons** | **Use-Case** |
+| - | - | - | - |
 | Naïve Bayes | Simple, fast, works well with large datasets, easy to implement | Assumes features are independent (may not be true), struggles with correlated features | Text Classification, Spam Filtering, Sentiment Analysis |
 | Bayesian Networks | Can handle complex dependencies, more accurate for complex problems | Requires more data and domain knowledge, computationally intensive | Risk Assessment, Gene Expression Analysis, Decision Support Systems |
