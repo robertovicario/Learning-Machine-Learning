@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is designed for educational purposes, specifically for those approaching this topic without prior knowledge. Feel free to contribute your notes, insights, and improvements to help enhance the learning experience for others, just please follow the _Contributing Guidelines_.
+This repository is designed for educational purposes, specifically for those approaching this topic without prior knowledge. Feel free to contribute your notes, insights, and improvements to help enhance the learning experience for others, just please follow the _Code of Conduct_.
 
 Here's a small spoiler I'd like to share with you:
 
